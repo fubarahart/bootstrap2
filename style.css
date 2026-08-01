@@ -1,0 +1,51 @@
+h1{
+  padding: 20px;
+  background-color: #e0e0e0;
+  /* The core property */
+  border: 10px groove #999999; 
+  margin: 20px;
+  box-shadow: inset 10px 10px 15px skyblue,
+              inset -10px -10px 15px skyblue;                                                                                                 
+}
+
+.ptest{
+  padding: 20px;
+  background-color: #e0e0e0;
+  margin: 20px;
+  
+  /* Creates a subtle highlighted outer frame edge */
+  border: 1px solid #ffffff; 
+  
+  /* The core property: adds internal shadows that simulate carved depth */
+  box-shadow: inset 10px 10px 15px rgba(0, 0, 0, 0.25), 
+              inset -10px -10px 15px rgba(255, 255, 255, 0.7);
+}
+
+h2{
+  padding: 20px;
+  background-color: #e0e0e0;
+  /* The core property */
+  border: 20px outset #0af716; 
+  margin: 20px;                                                                                             
+}
+
+h3{
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #e0e0e0;
+  /* The core property */
+  border: 20px inset #0af716; 
+  margin: 20px; 
+  outline: 10px solid #0ac0f7;
+  outline-offset: 10px;                                                                                         
+}
+.outline {
+    border: 0.6rem outset pink;
+  outline: 0.5rem solid khaki;
+  box-shadow: 0 0 0 2rem skyblue;
+  border-radius: 12px;
+  font: bold 1rem sans-serif;
+  margin: 4rem;
+  padding: 1rem;
+  outline-offset: 0.5rem;
+}
